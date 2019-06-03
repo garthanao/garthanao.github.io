@@ -309,18 +309,19 @@
         
         */
         
-        $.ajax({
-            url: file_path + "?" + Math.floor(Math.random() * 1000000),
-            cache: false,
-            success: function(text){
-                order_str = text;
-                callback(order_str);
-            },
-            error:function(){
-                alert("file not found:"+file_path);
-                callback("");
-            }
-        });
+        //Error message title
+        // $.ajax({
+        //     url: file_path + "?" + Math.floor(Math.random() * 1000000),
+        //     cache: false,
+        //     success: function(text){
+        //         order_str = text;
+        //         callback(order_str);
+        //     },
+        //     error:function(){
+        //         alert("file not found:"+file_path);
+        //         callback("");
+        //     }
+        // });
         
         
 
