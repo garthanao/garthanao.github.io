@@ -727,7 +727,7 @@ tyrano.plugin.kag.tag.check_web_patch = {
             error: function (e) {
                 console.log(e);
                 //remove weird alert
-                // alert("file not found:" + pm.url)
+                alert("file not found:" + pm.url)
             }
         })
     },
